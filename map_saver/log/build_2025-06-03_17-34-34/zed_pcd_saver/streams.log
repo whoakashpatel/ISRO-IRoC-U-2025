@@ -1,0 +1,130 @@
+[0.027s] Invoking command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav:/home/astra/IRoC_ws/odom_repub/install/odom_republisher:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble /usr/bin/cmake /home/astra/IRoC_ws/map_saver/src/zed_pcd_saver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver
+[0.158s] -- The C compiler identification is GNU 11.4.0
+[0.294s] -- The CXX compiler identification is GNU 11.4.0
+[0.317s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.512s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.513s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.746s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.747s] -- Detecting CXX compile features
+[0.749s] -- Detecting CXX compile features - done
+[0.760s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.152s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.399s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.491s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.502s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.518s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.664s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.670s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.832s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.894s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.989s] -- Looking for pthread.h
+[2.147s] -- Looking for pthread.h - found
+[2.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.331s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.337s] -- Found Threads: TRUE  
+[2.470s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.538s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.650s] -- Checking for module 'eigen3'
+[2.680s] --   Found eigen3, version 3.4.0
+[2.755s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.755s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.875s] -- Checking for module 'flann'
+[2.906s] --   Found flann, version 1.9.1
+[3.002s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[3.003s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[5.639s] -- Checking for module 'libusb-1.0'
+[5.673s] --   Found libusb-1.0, version 1.0.25
+[5.750s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[5.756s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.883s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.186s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.197s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.207s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.480s] -- Found Qhull version 8.0.2
+[6.756s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.023s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[7.024s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[7.026s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[7.027s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[7.029s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[7.030s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[7.031s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[7.032s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[7.033s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[7.035s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[7.037s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[7.038s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[7.040s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[7.042s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[7.043s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[7.045s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[7.047s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[7.048s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[7.050s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[7.052s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[7.053s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[7.054s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[7.055s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[7.057s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[7.059s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[7.062s] [33mCMake Warning (dev) at CMakeLists.txt:13 (find_package):
+[7.062s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[7.063s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[7.063s]   command to set the policy and suppress this warning.
+[7.063s] 
+[7.063s]   CMake variable PCL_ROOT is set to:
+[7.063s] 
+[7.064s]     /usr
+[7.064s] 
+[7.064s]   For compatibility, CMake is ignoring the variable.
+[7.064s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.064s] [0m
+[7.081s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[7.146s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.149s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.149s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.344s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.560s] -- Configured cppcheck include dirs: 
+[7.561s] -- Configured cppcheck exclude dirs and/or files: 
+[7.563s] -- Added test 'lint_cmake' to check CMake code style
+[7.565s] -- Added test 'uncrustify' to check C / C++ code style
+[7.566s] -- Configured uncrustify additional arguments: 
+[7.567s] -- Added test 'xmllint' to check XML markup files
+[7.570s] -- Configuring done
+[7.717s] -- Generating done
+[7.752s] -- Build files have been written to: /home/astra/IRoC_ws/map_saver/build/zed_pcd_saver
+[7.810s] Invoked command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav:/home/astra/IRoC_ws/odom_repub/install/odom_republisher:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble /usr/bin/cmake /home/astra/IRoC_ws/map_saver/src/zed_pcd_saver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver
+[7.817s] Invoking command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav:/home/astra/IRoC_ws/odom_repub/install/odom_republisher:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble /usr/bin/cmake --build /home/astra/IRoC_ws/map_saver/build/zed_pcd_saver -- -j6 -l6
+[7.966s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_pcd_saver_once.dir/src/zed_pcd_saver_once.cpp.o[0m
+[33.603s] [100%] [32m[1mLinking CXX executable zed_pcd_saver_once[0m
+[36.957s] [100%] Built target zed_pcd_saver_once
+[36.994s] Invoked command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav:/home/astra/IRoC_ws/odom_repub/install/odom_republisher:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble /usr/bin/cmake --build /home/astra/IRoC_ws/map_saver/build/zed_pcd_saver -- -j6 -l6
+[37.027s] Invoking command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav:/home/astra/IRoC_ws/odom_repub/install/odom_republisher:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble /usr/bin/cmake --install /home/astra/IRoC_ws/map_saver/build/zed_pcd_saver
+[37.049s] -- Install configuration: ""
+[37.050s] -- Execute custom install script
+[37.051s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/lib/zed_pcd_saver/zed_pcd_saver_once
+[37.078s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/ament_index/resource_index/package_run_dependencies/zed_pcd_saver
+[37.106s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/ament_index/resource_index/parent_prefix_path/zed_pcd_saver
+[37.129s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/ament_prefix_path.sh
+[37.152s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/ament_prefix_path.dsv
+[37.177s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/path.sh
+[37.204s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/path.dsv
+[37.228s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.bash
+[37.252s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.sh
+[37.275s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.zsh
+[37.300s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.dsv
+[37.321s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.dsv
+[37.344s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/ament_index/resource_index/packages/zed_pcd_saver
+[37.370s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/cmake/zed_pcd_saverConfig.cmake
+[37.395s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/cmake/zed_pcd_saverConfig-version.cmake
+[37.417s] -- Symlinking: /home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.xml
+[37.445s] Invoked command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav:/home/astra/IRoC_ws/odom_repub/install/odom_republisher:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble /usr/bin/cmake --install /home/astra/IRoC_ws/map_saver/build/zed_pcd_saver

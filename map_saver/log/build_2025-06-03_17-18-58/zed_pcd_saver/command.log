@@ -1,0 +1,2 @@
+Invoking command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver': /usr/bin/cmake /home/astra/IRoC_ws/map_saver/src/zed_pcd_saver -DCMAKE_INSTALL_PREFIX=/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver
+Invoked command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver' returned '1': /usr/bin/cmake /home/astra/IRoC_ws/map_saver/src/zed_pcd_saver -DCMAKE_INSTALL_PREFIX=/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver

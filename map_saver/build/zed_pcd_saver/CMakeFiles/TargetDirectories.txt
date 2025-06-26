@@ -1,0 +1,10 @@
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/uninstall.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/zed_pcd_saver_uninstall.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/zed_pcd_saver_once.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/test.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/edit_cache.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/rebuild_cache.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/list_install_components.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/install.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/install/local.dir
+/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver/CMakeFiles/install/strip.dir

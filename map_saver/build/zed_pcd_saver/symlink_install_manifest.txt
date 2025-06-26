@@ -1,0 +1,16 @@
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/lib/zed_pcd_saver/zed_pcd_saver_once
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/ament_index/resource_index/package_run_dependencies/zed_pcd_saver
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/ament_index/resource_index/parent_prefix_path/zed_pcd_saver
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/ament_prefix_path.sh
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/ament_prefix_path.dsv
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/path.sh
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/environment/path.dsv
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.bash
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.sh
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.zsh
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/local_setup.dsv
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.dsv
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/ament_index/resource_index/packages/zed_pcd_saver
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/cmake/zed_pcd_saverConfig.cmake
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/cmake/zed_pcd_saverConfig-version.cmake
+/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.xml

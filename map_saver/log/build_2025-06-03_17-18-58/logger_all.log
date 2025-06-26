@@ -1,0 +1,120 @@
+[0.311s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.312s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff803b30a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff803b2a70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff803b2a70>>)[0m
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.815s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.816s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/astra/IRoC_ws/map_saver'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.842s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.843s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.844s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.845s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.847s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.847s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.848s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extension 'ignore'
+[0.849s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extension 'ignore_ament_install'
+[0.850s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extensions ['colcon_pkg']
+[0.850s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extension 'colcon_pkg'
+[0.850s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extensions ['colcon_meta']
+[0.850s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extension 'colcon_meta'
+[0.850s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extensions ['ros']
+[0.850s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/zed_pcd_saver) by extension 'ros'
+[0.856s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/zed_pcd_saver' with type 'ros.ament_cmake' and name 'zed_pcd_saver'[0m
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.856s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.884s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.884s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.887s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/astra/IRoC_ws/map_saver/install[0m
+[0.889s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/astra/astra_ws/install[0m
+[0.889s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/astra/ros2_ws/install[0m
+[0.890s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/astra/IRoC_ws/survey_and_nav/install[0m
+[0.891s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/astra/IRoC_ws/odom_repub/install[0m
+[0.892s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/astra/IRoC_ws/zed/install[0m
+[0.892s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'cmake_args' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'cmake_target' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'cmake_clean_first' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'cmake_force_configure' from command line to 'False'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'ament_cmake_args' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.897s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_pcd_saver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.898s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_pcd_saver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver', 'merge_install': False, 'path': '/home/astra/IRoC_ws/map_saver/src/zed_pcd_saver', 'symlink_install': False, 'test_result_base': None}[0m
+[0.898s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.901s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.901s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/astra/IRoC_ws/map_saver/src/zed_pcd_saver' with build type 'ament_cmake'
+[0.901s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/astra/IRoC_ws/map_saver/src/zed_pcd_saver'
+[0.906s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.906s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.906s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.921s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver': /usr/bin/cmake /home/astra/IRoC_ws/map_saver/src/zed_pcd_saver -DCMAKE_INSTALL_PREFIX=/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver[0m
+[2.395s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/astra/IRoC_ws/map_saver/build/zed_pcd_saver' returned '1': /usr/bin/cmake /home/astra/IRoC_ws/map_saver/src/zed_pcd_saver -DCMAKE_INSTALL_PREFIX=/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver[0m
+[2.430s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(zed_pcd_saver)
+[2.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver' for CMake module files
+[2.441s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver' for CMake config files
+[2.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/bin'
+[2.442s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/lib/pkgconfig/zed_pcd_saver.pc'
+[2.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/lib/python3.10/site-packages'
+[2.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/bin'
+[2.446s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.ps1'
+[2.448s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.dsv'
+[2.450s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.sh'
+[2.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.bash'
+[2.455s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/zed_pcd_saver/package.zsh'
+[2.457s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/astra/IRoC_ws/map_saver/install/zed_pcd_saver/share/colcon-core/packages/zed_pcd_saver)
+[2.469s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.469s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.470s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[2.470s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.493s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.493s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.494s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.533s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.534s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/astra/IRoC_ws/map_saver/install/local_setup.ps1'
+[2.538s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/astra/IRoC_ws/map_saver/install/_local_setup_util_ps1.py'
+[2.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/astra/IRoC_ws/map_saver/install/setup.ps1'
+[2.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/astra/IRoC_ws/map_saver/install/local_setup.sh'
+[2.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/astra/IRoC_ws/map_saver/install/_local_setup_util_sh.py'
+[2.548s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/astra/IRoC_ws/map_saver/install/setup.sh'
+[2.551s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/astra/IRoC_ws/map_saver/install/local_setup.bash'
+[2.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/astra/IRoC_ws/map_saver/install/setup.bash'
+[2.553s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/astra/IRoC_ws/map_saver/install/local_setup.zsh'
+[2.555s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/astra/IRoC_ws/map_saver/install/setup.zsh'
