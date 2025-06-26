@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/include/**",
+        "/home/astra/iroc_final_ws/zed/install/zed_components/include/**",
+        "/home/astra/ros2_ws/install/zed_topic_benchmark_component/include/**",
+        "/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/include/**",
+        "/home/astra/ros2_ws/install/zed_rgb_convert/include/**",
+        "/home/astra/ros2_ws/install/zed_ipc/include/**",
+        "/home/astra/ros2_ws/install/zed_aruco_localization/include/**",
+        "/home/astra/ros2_ws/install/rviz_plugin_zed_od/include/**",
+        "/home/astra/astra_ws/install/astra_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

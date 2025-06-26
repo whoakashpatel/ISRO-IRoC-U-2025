@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/home/astra/IRoC_ws/odom_repub/build/odom_republisher/resource/odom_republisher' -> '/home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages/odom_republisher'

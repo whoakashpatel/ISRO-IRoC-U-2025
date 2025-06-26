@@ -1,0 +1,17 @@
+[2.812s] Invoking command in '/home/astra/iroc_final_ws/odom_repub/build/odom_republisher': PYTHONPATH=/home/astra/iroc_final_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/iroc_final_ws/odom_repub/build/odom_republisher/build --no-deps symlink_data
+[3.529s] running develop
+[4.087s] running egg_info
+[4.088s] writing odom_republisher.egg-info/PKG-INFO
+[4.088s] writing dependency_links to odom_republisher.egg-info/dependency_links.txt
+[4.089s] writing entry points to odom_republisher.egg-info/entry_points.txt
+[4.089s] writing requirements to odom_republisher.egg-info/requires.txt
+[4.089s] writing top-level names to odom_republisher.egg-info/top_level.txt
+[4.154s] reading manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[4.156s] writing manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[4.251s] running build_ext
+[4.252s] Creating /home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom-republisher.egg-link (link to .)
+[4.254s] Installing odom_republisher_node script to /home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/odom_republisher
+[4.255s] 
+[4.255s] Installed /home/astra/iroc_final_ws/odom_repub/build/odom_republisher
+[4.255s] running symlink_data
+[4.447s] Invoked command in '/home/astra/iroc_final_ws/odom_repub/build/odom_republisher' returned '0': PYTHONPATH=/home/astra/iroc_final_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/iroc_final_ws/odom_repub/build/odom_republisher/build --no-deps symlink_data

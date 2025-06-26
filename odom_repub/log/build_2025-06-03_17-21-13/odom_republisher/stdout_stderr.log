@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/odom_republisher/odom_republisher.egg-info
+writing ../../build/odom_republisher/odom_republisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/odom_republisher/odom_republisher.egg-info/dependency_links.txt
+writing entry points to ../../build/odom_republisher/odom_republisher.egg-info/entry_points.txt
+writing requirements to ../../build/odom_republisher/odom_republisher.egg-info/requires.txt
+writing top-level names to ../../build/odom_republisher/odom_republisher.egg-info/top_level.txt
+writing manifest file '../../build/odom_republisher/odom_republisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/odom_republisher/odom_republisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/odom_republisher/odom_republisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build
+creating /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib
+creating /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher
+copying odom_republisher/__init__.py -> /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher
+copying odom_republisher/odom_republisher_node.py -> /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher
+running install
+running install_lib
+creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher
+copying /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher/__init__.py -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher
+copying /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher/odom_republisher_node.py -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher
+byte-compiling /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher/odom_republisher_node.py to odom_republisher_node.cpython-310.pyc
+running install_data
+creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index
+creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index
+creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages
+copying resource/odom_republisher -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/odom_republisher
+running install_egg_info
+Copying ../../build/odom_republisher/odom_republisher.egg-info to /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odom_republisher_node script to /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/odom_republisher
+writing list of installed files to '/home/astra/IRoC_ws/odom_repub/build/odom_republisher/install.log'

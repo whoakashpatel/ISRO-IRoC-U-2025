@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (vision_to_mavros) JobQueued: {'identifier': 'vision_to_mavros', 'dependencies': OrderedDict()}
+[0.001179] (vision_to_mavros) JobStarted: {'identifier': 'vision_to_mavros'}
+[0.034221] (vision_to_mavros) JobProgress: {'identifier': 'vision_to_mavros', 'progress': 'cmake'}
+[0.035305] (vision_to_mavros) Command: {'cmd': ['/usr/bin/cmake', '/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mavros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros'], 'cwd': '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'astra'), ('XDG_SESSION_TYPE', 'x11'), ('Pangolin_DIR', '/home/astra/Pangolin/build/PangolinConfig.cmake'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/astra/iroc_final_ws/zed/install/zed_components/lib:/home/astra/ros2_ws/install/zed_topic_benchmark_component/lib:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/astra/ros2_ws/install/zed_rgb_convert/lib:/home/astra/ros2_ws/install/zed_ipc/lib:/home/astra/ros2_ws/install/zed_aruco_localization/lib:/home/astra/ros2_ws/install/rviz_plugin_zed_od/lib:/home/astra/astra_ws/install/astra_msgs/lib:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64${LD_LIBRARY_PATH:+:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib}'), ('HOME', '/home/astra'), ('OLDPWD', '/home/astra/iroc_final_ws/vision_to_mav/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('MANAGERPID', '2565'), ('SYSTEMD_EXEC_PID', '2896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '146633'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install:/home/astra/astra_ws/install:/home/astra/ros2_ws/install:/home/astra/iroc_final_ws/map_saver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astra'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421424256687'), ('JOURNAL_STREAM', '8:48572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astra-desktop:@/tmp/.ICE-unix/2712,unix/astra-desktop:/tmp/.ICE-unix/2712'), ('INVOCATION_ID', '62e5e9a064394a3fac23064b0b6d149e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/zed_tutorial_video:/home/astra/ros2_ws/install/zed_tutorial_pos_tracking:/home/astra/ros2_ws/install/zed_tutorial_depth:/home/astra/ros2_ws/install/zed_topic_benchmark:/home/astra/ros2_ws/install/zed_topic_benchmark_component:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces:/home/astra/ros2_ws/install/zed_robot_integration:/home/astra/ros2_ws/install/zed_rgb_convert:/home/astra/ros2_ws/install/zed_ipc:/home/astra/ros2_ws/install/zed_multi_camera:/home/astra/ros2_ws/install/zed_display_rviz2:/home/astra/ros2_ws/install/zed_depth_to_laserscan:/home/astra/ros2_ws/install/zed_aruco_localization:/home/astra/ros2_ws/install/rviz_plugin_zed_od:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_nav_control:/home/astra/astra_ws/install/astra_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccf62b9f-7e6a-42a1-8af1-ce353562e662'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/astra/astra_ws/install/manual_key_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_nav_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/zed_tutorial_video:/home/astra/ros2_ws/install/zed_tutorial_pos_tracking:/home/astra/ros2_ws/install/zed_tutorial_depth:/home/astra/ros2_ws/install/zed_topic_benchmark:/home/astra/ros2_ws/install/zed_topic_benchmark_component:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces:/home/astra/ros2_ws/install/zed_robot_integration:/home/astra/ros2_ws/install/zed_rgb_convert:/home/astra/ros2_ws/install/zed_ipc:/home/astra/ros2_ws/install/zed_multi_camera:/home/astra/ros2_ws/install/zed_display_rviz2:/home/astra/ros2_ws/install/zed_depth_to_laserscan:/home/astra/ros2_ws/install/zed_aruco_localization:/home/astra/ros2_ws/install/rviz_plugin_zed_od:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_msgs:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099463] (-) TimerEvent: {}
+[0.199942] (-) TimerEvent: {}
+[0.300474] (-) TimerEvent: {}
+[0.401018] (-) TimerEvent: {}
+[0.501560] (-) TimerEvent: {}
+[0.602094] (-) TimerEvent: {}
+[0.702693] (-) TimerEvent: {}
+[0.729011] (vision_to_mavros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.802879] (-) TimerEvent: {}
+[0.903515] (-) TimerEvent: {}
+[1.004224] (-) TimerEvent: {}
+[1.104935] (-) TimerEvent: {}
+[1.141436] (vision_to_mavros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.164149] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.205118] (-) TimerEvent: {}
+[1.305282] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.305731] (-) TimerEvent: {}
+[1.317442] (vision_to_mavros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.319786] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.321730] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.329491] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.405938] (-) TimerEvent: {}
+[1.479629] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.492081] (vision_to_mavros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.492657] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.493604] (vision_to_mavros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.506055] (-) TimerEvent: {}
+[1.523697] (vision_to_mavros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.606205] (-) TimerEvent: {}
+[1.706805] (-) TimerEvent: {}
+[1.807381] (-) TimerEvent: {}
+[1.885286] (vision_to_mavros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.907524] (-) TimerEvent: {}
+[2.008099] (-) TimerEvent: {}
+[2.062693] (vision_to_mavros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.108202] (-) TimerEvent: {}
+[2.202805] (vision_to_mavros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.208299] (-) TimerEvent: {}
+[2.308772] (-) TimerEvent: {}
+[2.383423] (vision_to_mavros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.404790] (vision_to_mavros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.408820] (-) TimerEvent: {}
+[2.439906] (vision_to_mavros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.488738] (vision_to_mavros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.508919] (-) TimerEvent: {}
+[2.548270] (vision_to_mavros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.609051] (-) TimerEvent: {}
+[2.709506] (-) TimerEvent: {}
+[2.718929] (vision_to_mavros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.733036] (vision_to_mavros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.809622] (-) TimerEvent: {}
+[2.910159] (-) TimerEvent: {}
+[2.999069] (vision_to_mavros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.010226] (-) TimerEvent: {}
+[3.057951] (vision_to_mavros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.110410] (-) TimerEvent: {}
+[3.142298] (vision_to_mavros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.180685] (vision_to_mavros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.210577] (-) TimerEvent: {}
+[3.311216] (-) TimerEvent: {}
+[3.368920] (vision_to_mavros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.369746] (vision_to_mavros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.411390] (-) TimerEvent: {}
+[3.510984] (vision_to_mavros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.511723] (-) TimerEvent: {}
+[3.513230] (vision_to_mavros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.611933] (-) TimerEvent: {}
+[3.712607] (-) TimerEvent: {}
+[3.713162] (vision_to_mavros) StdoutLine: {'line': b'-- Found mavros_msgs: 2.10.0 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[3.812787] (-) TimerEvent: {}
+[3.913476] (-) TimerEvent: {}
+[3.962514] (vision_to_mavros) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.011853] (vision_to_mavros) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.013532] (-) TimerEvent: {}
+[4.114005] (-) TimerEvent: {}
+[4.142508] (vision_to_mavros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.146669] (vision_to_mavros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.147050] (vision_to_mavros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.214150] (-) TimerEvent: {}
+[4.314760] (-) TimerEvent: {}
+[4.415398] (-) TimerEvent: {}
+[4.442506] (vision_to_mavros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.515537] (-) TimerEvent: {}
+[4.616172] (-) TimerEvent: {}
+[4.657214] (vision_to_mavros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.657736] (vision_to_mavros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mavros/include\n'}
+[4.658020] (vision_to_mavros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.660767] (vision_to_mavros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.664262] (vision_to_mavros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.666885] (vision_to_mavros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.673937] (vision_to_mavros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.674146] (vision_to_mavros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.676664] (vision_to_mavros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.682523] (vision_to_mavros) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.716297] (-) TimerEvent: {}
+[4.717217] (vision_to_mavros) StdoutLine: {'line': b'-- Generating done\n'}
+[4.726686] (vision_to_mavros) StdoutLine: {'line': b'-- Build files have been written to: /home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros\n'}
+[4.753211] (vision_to_mavros) CommandEnded: {'returncode': 0}
+[4.754653] (vision_to_mavros) JobProgress: {'identifier': 'vision_to_mavros', 'progress': 'build'}
+[4.755912] (vision_to_mavros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros', '--', '-j6', '-l6'], 'cwd': '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'astra'), ('XDG_SESSION_TYPE', 'x11'), ('Pangolin_DIR', '/home/astra/Pangolin/build/PangolinConfig.cmake'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/astra/iroc_final_ws/zed/install/zed_components/lib:/home/astra/ros2_ws/install/zed_topic_benchmark_component/lib:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/astra/ros2_ws/install/zed_rgb_convert/lib:/home/astra/ros2_ws/install/zed_ipc/lib:/home/astra/ros2_ws/install/zed_aruco_localization/lib:/home/astra/ros2_ws/install/rviz_plugin_zed_od/lib:/home/astra/astra_ws/install/astra_msgs/lib:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64${LD_LIBRARY_PATH:+:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib}'), ('HOME', '/home/astra'), ('OLDPWD', '/home/astra/iroc_final_ws/vision_to_mav/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('MANAGERPID', '2565'), ('SYSTEMD_EXEC_PID', '2896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '146633'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install:/home/astra/astra_ws/install:/home/astra/ros2_ws/install:/home/astra/iroc_final_ws/map_saver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astra'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421424256687'), ('JOURNAL_STREAM', '8:48572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astra-desktop:@/tmp/.ICE-unix/2712,unix/astra-desktop:/tmp/.ICE-unix/2712'), ('INVOCATION_ID', '62e5e9a064394a3fac23064b0b6d149e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/zed_tutorial_video:/home/astra/ros2_ws/install/zed_tutorial_pos_tracking:/home/astra/ros2_ws/install/zed_tutorial_depth:/home/astra/ros2_ws/install/zed_topic_benchmark:/home/astra/ros2_ws/install/zed_topic_benchmark_component:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces:/home/astra/ros2_ws/install/zed_robot_integration:/home/astra/ros2_ws/install/zed_rgb_convert:/home/astra/ros2_ws/install/zed_ipc:/home/astra/ros2_ws/install/zed_multi_camera:/home/astra/ros2_ws/install/zed_display_rviz2:/home/astra/ros2_ws/install/zed_depth_to_laserscan:/home/astra/ros2_ws/install/zed_aruco_localization:/home/astra/ros2_ws/install/rviz_plugin_zed_od:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_nav_control:/home/astra/astra_ws/install/astra_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccf62b9f-7e6a-42a1-8af1-ce353562e662'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/astra/astra_ws/install/manual_key_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_nav_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/zed_tutorial_video:/home/astra/ros2_ws/install/zed_tutorial_pos_tracking:/home/astra/ros2_ws/install/zed_tutorial_depth:/home/astra/ros2_ws/install/zed_topic_benchmark:/home/astra/ros2_ws/install/zed_topic_benchmark_component:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces:/home/astra/ros2_ws/install/zed_robot_integration:/home/astra/ros2_ws/install/zed_rgb_convert:/home/astra/ros2_ws/install/zed_ipc:/home/astra/ros2_ws/install/zed_multi_camera:/home/astra/ros2_ws/install/zed_display_rviz2:/home/astra/ros2_ws/install/zed_depth_to_laserscan:/home/astra/ros2_ws/install/zed_aruco_localization:/home/astra/ros2_ws/install/rviz_plugin_zed_od:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_msgs:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[4.816497] (-) TimerEvent: {}
+[4.866913] (vision_to_mavros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_to_mavros_node.dir/src/vision_to_mavros.cpp.o\x1b[0m\n'}
+[4.916693] (-) TimerEvent: {}
+[5.017480] (-) TimerEvent: {}
+[5.118208] (-) TimerEvent: {}
+[5.218876] (-) TimerEvent: {}
+[5.319532] (-) TimerEvent: {}
+[5.420271] (-) TimerEvent: {}
+[5.520966] (-) TimerEvent: {}
+[5.621636] (-) TimerEvent: {}
+[5.722281] (-) TimerEvent: {}
+[5.822911] (-) TimerEvent: {}
+[5.923524] (-) TimerEvent: {}
+[6.024241] (-) TimerEvent: {}
+[6.125006] (-) TimerEvent: {}
+[6.225884] (-) TimerEvent: {}
+[6.326647] (-) TimerEvent: {}
+[6.427404] (-) TimerEvent: {}
+[6.528065] (-) TimerEvent: {}
+[6.628736] (-) TimerEvent: {}
+[6.729509] (-) TimerEvent: {}
+[6.830248] (-) TimerEvent: {}
+[6.931019] (-) TimerEvent: {}
+[7.031786] (-) TimerEvent: {}
+[7.132495] (-) TimerEvent: {}
+[7.233204] (-) TimerEvent: {}
+[7.333933] (-) TimerEvent: {}
+[7.434667] (-) TimerEvent: {}
+[7.535414] (-) TimerEvent: {}
+[7.636169] (-) TimerEvent: {}
+[7.736893] (-) TimerEvent: {}
+[7.837737] (-) TimerEvent: {}
+[7.938503] (-) TimerEvent: {}
+[8.039253] (-) TimerEvent: {}
+[8.139994] (-) TimerEvent: {}
+[8.240744] (-) TimerEvent: {}
+[8.341474] (-) TimerEvent: {}
+[8.442225] (-) TimerEvent: {}
+[8.542975] (-) TimerEvent: {}
+[8.643717] (-) TimerEvent: {}
+[8.744361] (-) TimerEvent: {}
+[8.845070] (-) TimerEvent: {}
+[8.945734] (-) TimerEvent: {}
+[9.046411] (-) TimerEvent: {}
+[9.147093] (-) TimerEvent: {}
+[9.247762] (-) TimerEvent: {}
+[9.348433] (-) TimerEvent: {}
+[9.449118] (-) TimerEvent: {}
+[9.549744] (-) TimerEvent: {}
+[9.650350] (-) TimerEvent: {}
+[9.751034] (-) TimerEvent: {}
+[9.851704] (-) TimerEvent: {}
+[9.952390] (-) TimerEvent: {}
+[10.053098] (-) TimerEvent: {}
+[10.153765] (-) TimerEvent: {}
+[10.254450] (-) TimerEvent: {}
+[10.355126] (-) TimerEvent: {}
+[10.455797] (-) TimerEvent: {}
+[10.556493] (-) TimerEvent: {}
+[10.657386] (-) TimerEvent: {}
+[10.758068] (-) TimerEvent: {}
+[10.858918] (-) TimerEvent: {}
+[10.959594] (-) TimerEvent: {}
+[11.060269] (-) TimerEvent: {}
+[11.160908] (-) TimerEvent: {}
+[11.261589] (-) TimerEvent: {}
+[11.362267] (-) TimerEvent: {}
+[11.462938] (-) TimerEvent: {}
+[11.563606] (-) TimerEvent: {}
+[11.664269] (-) TimerEvent: {}
+[11.764950] (-) TimerEvent: {}
+[11.865641] (-) TimerEvent: {}
+[11.966316] (-) TimerEvent: {}
+[12.067001] (-) TimerEvent: {}
+[12.167677] (-) TimerEvent: {}
+[12.268351] (-) TimerEvent: {}
+[12.369072] (-) TimerEvent: {}
+[12.469738] (-) TimerEvent: {}
+[12.570415] (-) TimerEvent: {}
+[12.671093] (-) TimerEvent: {}
+[12.771767] (-) TimerEvent: {}
+[12.872428] (-) TimerEvent: {}
+[12.973126] (-) TimerEvent: {}
+[13.073805] (-) TimerEvent: {}
+[13.174476] (-) TimerEvent: {}
+[13.275147] (-) TimerEvent: {}
+[13.375813] (-) TimerEvent: {}
+[13.476492] (-) TimerEvent: {}
+[13.577179] (-) TimerEvent: {}
+[13.677866] (-) TimerEvent: {}
+[13.778537] (-) TimerEvent: {}
+[13.879202] (-) TimerEvent: {}
+[13.979867] (-) TimerEvent: {}
+[14.080547] (-) TimerEvent: {}
+[14.181190] (-) TimerEvent: {}
+[14.281858] (-) TimerEvent: {}
+[14.382524] (-) TimerEvent: {}
+[14.483182] (-) TimerEvent: {}
+[14.583861] (-) TimerEvent: {}
+[14.684535] (-) TimerEvent: {}
+[14.785189] (-) TimerEvent: {}
+[14.885886] (-) TimerEvent: {}
+[14.986592] (-) TimerEvent: {}
+[15.087281] (-) TimerEvent: {}
+[15.187997] (-) TimerEvent: {}
+[15.288854] (-) TimerEvent: {}
+[15.389523] (-) TimerEvent: {}
+[15.490203] (-) TimerEvent: {}
+[15.590869] (-) TimerEvent: {}
+[15.691512] (-) TimerEvent: {}
+[15.792162] (-) TimerEvent: {}
+[15.892824] (-) TimerEvent: {}
+[15.993526] (-) TimerEvent: {}
+[16.094201] (-) TimerEvent: {}
+[16.194851] (-) TimerEvent: {}
+[16.295539] (-) TimerEvent: {}
+[16.396190] (-) TimerEvent: {}
+[16.496863] (-) TimerEvent: {}
+[16.597529] (-) TimerEvent: {}
+[16.698167] (-) TimerEvent: {}
+[16.798807] (-) TimerEvent: {}
+[16.899449] (-) TimerEvent: {}
+[17.000092] (-) TimerEvent: {}
+[17.100759] (-) TimerEvent: {}
+[17.201428] (-) TimerEvent: {}
+[17.302072] (-) TimerEvent: {}
+[17.402719] (-) TimerEvent: {}
+[17.503372] (-) TimerEvent: {}
+[17.604011] (-) TimerEvent: {}
+[17.704635] (-) TimerEvent: {}
+[17.805322] (-) TimerEvent: {}
+[17.906041] (-) TimerEvent: {}
+[18.006768] (-) TimerEvent: {}
+[18.107485] (-) TimerEvent: {}
+[18.208196] (-) TimerEvent: {}
+[18.308887] (-) TimerEvent: {}
+[18.409624] (-) TimerEvent: {}
+[18.510361] (-) TimerEvent: {}
+[18.531708] (vision_to_mavros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vision_to_mavros_node\x1b[0m\n'}
+[18.610544] (-) TimerEvent: {}
+[18.711204] (-) TimerEvent: {}
+[18.811874] (-) TimerEvent: {}
+[18.912628] (-) TimerEvent: {}
+[19.013573] (-) TimerEvent: {}
+[19.114323] (-) TimerEvent: {}
+[19.215101] (-) TimerEvent: {}
+[19.294110] (vision_to_mavros) StdoutLine: {'line': b'[100%] Built target vision_to_mavros_node\n'}
+[19.315300] (-) TimerEvent: {}
+[19.317310] (vision_to_mavros) CommandEnded: {'returncode': 0}
+[19.318724] (vision_to_mavros) JobProgress: {'identifier': 'vision_to_mavros', 'progress': 'install'}
+[19.336405] (vision_to_mavros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros'], 'cwd': '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'astra'), ('XDG_SESSION_TYPE', 'x11'), ('Pangolin_DIR', '/home/astra/Pangolin/build/PangolinConfig.cmake'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/astra/iroc_final_ws/zed/install/zed_components/lib:/home/astra/ros2_ws/install/zed_topic_benchmark_component/lib:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/lib:/home/astra/ros2_ws/install/zed_rgb_convert/lib:/home/astra/ros2_ws/install/zed_ipc/lib:/home/astra/ros2_ws/install/zed_aruco_localization/lib:/home/astra/ros2_ws/install/rviz_plugin_zed_od/lib:/home/astra/astra_ws/install/astra_msgs/lib:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64${LD_LIBRARY_PATH:+:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib}'), ('HOME', '/home/astra'), ('OLDPWD', '/home/astra/iroc_final_ws/vision_to_mav/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('MANAGERPID', '2565'), ('SYSTEMD_EXEC_PID', '2896'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '146633'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install:/home/astra/astra_ws/install:/home/astra/ros2_ws/install:/home/astra/iroc_final_ws/map_saver/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'astra'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421424256687'), ('JOURNAL_STREAM', '8:48572'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'astra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/astra-desktop:@/tmp/.ICE-unix/2712,unix/astra-desktop:/tmp/.ICE-unix/2712'), ('INVOCATION_ID', '62e5e9a064394a3fac23064b0b6d149e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/zed_tutorial_video:/home/astra/ros2_ws/install/zed_tutorial_pos_tracking:/home/astra/ros2_ws/install/zed_tutorial_depth:/home/astra/ros2_ws/install/zed_topic_benchmark:/home/astra/ros2_ws/install/zed_topic_benchmark_component:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces:/home/astra/ros2_ws/install/zed_robot_integration:/home/astra/ros2_ws/install/zed_rgb_convert:/home/astra/ros2_ws/install/zed_ipc:/home/astra/ros2_ws/install/zed_multi_camera:/home/astra/ros2_ws/install/zed_display_rviz2:/home/astra/ros2_ws/install/zed_depth_to_laserscan:/home/astra/ros2_ws/install/zed_aruco_localization:/home/astra/ros2_ws/install/rviz_plugin_zed_od:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_nav_control:/home/astra/astra_ws/install/astra_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccf62b9f-7e6a-42a1-8af1-ce353562e662'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/astra/astra_ws/install/manual_key_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_nav_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/zed_tutorial_video:/home/astra/ros2_ws/install/zed_tutorial_pos_tracking:/home/astra/ros2_ws/install/zed_tutorial_depth:/home/astra/ros2_ws/install/zed_topic_benchmark:/home/astra/ros2_ws/install/zed_topic_benchmark_component:/home/astra/ros2_ws/install/zed_topic_benchmark_interfaces:/home/astra/ros2_ws/install/zed_robot_integration:/home/astra/ros2_ws/install/zed_rgb_convert:/home/astra/ros2_ws/install/zed_ipc:/home/astra/ros2_ws/install/zed_multi_camera:/home/astra/ros2_ws/install/zed_display_rviz2:/home/astra/ros2_ws/install/zed_depth_to_laserscan:/home/astra/ros2_ws/install/zed_aruco_localization:/home/astra/ros2_ws/install/rviz_plugin_zed_od:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_msgs:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_nav_control:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[19.353799] (vision_to_mavros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.354521] (vision_to_mavros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.355546] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/lib/vision_to_mavros/vision_to_mavros_node\n'}
+[19.374157] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/include/vision_to_mavros/vision_to_mavros.hpp\n'}
+[19.391899] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros//launch/t265_all_nodes_launch.py\n'}
+[19.410878] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros//launch/t265_tf_to_mavros_launch.py\n'}
+[19.415360] (-) TimerEvent: {}
+[19.428765] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/ament_index/resource_index/package_run_dependencies/vision_to_mavros\n'}
+[19.446857] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/ament_index/resource_index/parent_prefix_path/vision_to_mavros\n'}
+[19.467162] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/environment/ament_prefix_path.sh\n'}
+[19.484757] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/environment/ament_prefix_path.dsv\n'}
+[19.501718] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/environment/path.sh\n'}
+[19.515505] (-) TimerEvent: {}
+[19.518714] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/environment/path.dsv\n'}
+[19.536871] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/local_setup.bash\n'}
+[19.555688] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/local_setup.sh\n'}
+[19.575378] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/local_setup.zsh\n'}
+[19.592141] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/local_setup.dsv\n'}
+[19.610976] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/package.dsv\n'}
+[19.615587] (-) TimerEvent: {}
+[19.628625] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/ament_index/resource_index/packages/vision_to_mavros\n'}
+[19.650204] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/cmake/vision_to_mavrosConfig.cmake\n'}
+[19.667706] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/cmake/vision_to_mavrosConfig-version.cmake\n'}
+[19.686786] (vision_to_mavros) StdoutLine: {'line': b'-- Symlinking: /home/astra/iroc_final_ws/vision_to_mav/install/vision_to_mavros/share/vision_to_mavros/package.xml\n'}
+[19.708237] (vision_to_mavros) CommandEnded: {'returncode': 0}
+[19.715696] (-) TimerEvent: {}
+[19.758488] (vision_to_mavros) JobEnded: {'identifier': 'vision_to_mavros', 'rc': 0}
+[19.759956] (-) EventReactorShutdown: {}

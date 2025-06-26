@@ -1,0 +1,37 @@
+[1.869s] Invoking command in '/home/astra/IRoC_ws/odom_repub/src/odom_republisher': PYTHONPATH=/home/astra/IRoC_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_republisher build --build-base /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build install --record /home/astra/IRoC_ws/odom_repub/build/odom_republisher/install.log --single-version-externally-managed install_data
+[2.478s] running egg_info
+[2.479s] creating ../../build/odom_republisher/odom_republisher.egg-info
+[2.479s] writing ../../build/odom_republisher/odom_republisher.egg-info/PKG-INFO
+[2.480s] writing dependency_links to ../../build/odom_republisher/odom_republisher.egg-info/dependency_links.txt
+[2.480s] writing entry points to ../../build/odom_republisher/odom_republisher.egg-info/entry_points.txt
+[2.480s] writing requirements to ../../build/odom_republisher/odom_republisher.egg-info/requires.txt
+[2.481s] writing top-level names to ../../build/odom_republisher/odom_republisher.egg-info/top_level.txt
+[2.481s] writing manifest file '../../build/odom_republisher/odom_republisher.egg-info/SOURCES.txt'
+[2.546s] reading manifest file '../../build/odom_republisher/odom_republisher.egg-info/SOURCES.txt'
+[2.547s] writing manifest file '../../build/odom_republisher/odom_republisher.egg-info/SOURCES.txt'
+[2.547s] running build
+[2.547s] running build_py
+[2.548s] creating /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build
+[2.549s] creating /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib
+[2.549s] creating /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher
+[2.549s] copying odom_republisher/__init__.py -> /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher
+[2.549s] copying odom_republisher/odom_republisher_node.py -> /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher
+[2.550s] running install
+[2.550s] running install_lib
+[2.552s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher
+[2.552s] copying /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher/__init__.py -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher
+[2.552s] copying /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build/lib/odom_republisher/odom_republisher_node.py -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher
+[2.553s] byte-compiling /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher/__init__.py to __init__.cpython-310.pyc
+[2.554s] byte-compiling /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher/odom_republisher_node.py to odom_republisher_node.cpython-310.pyc
+[2.555s] running install_data
+[2.555s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index
+[2.556s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index
+[2.556s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages
+[2.556s] copying resource/odom_republisher -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages
+[2.556s] copying package.xml -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/odom_republisher
+[2.557s] running install_egg_info
+[2.560s] Copying ../../build/odom_republisher/odom_republisher.egg-info to /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom_republisher-0.0.0-py3.10.egg-info
+[2.562s] running install_scripts
+[2.599s] Installing odom_republisher_node script to /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/odom_republisher
+[2.600s] writing list of installed files to '/home/astra/IRoC_ws/odom_repub/build/odom_republisher/install.log'
+[2.676s] Invoked command in '/home/astra/IRoC_ws/odom_repub/src/odom_republisher' returned '0': PYTHONPATH=/home/astra/IRoC_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_republisher build --build-base /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build install --record /home/astra/IRoC_ws/odom_repub/build/odom_republisher/install.log --single-version-externally-managed install_data

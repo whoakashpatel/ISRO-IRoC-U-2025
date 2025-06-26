@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.002859] (odom_republisher) JobQueued: {'identifier': 'odom_republisher', 'dependencies': OrderedDict()}
+[0.002973] (odom_republisher) JobStarted: {'identifier': 'odom_republisher'}
+[0.099264] (-) TimerEvent: {}
+[0.199965] (-) TimerEvent: {}
+[0.300621] (-) TimerEvent: {}
+[0.401297] (-) TimerEvent: {}
+[0.502050] (-) TimerEvent: {}
+[0.602717] (-) TimerEvent: {}
+[0.703425] (-) TimerEvent: {}
+[0.804199] (-) TimerEvent: {}
+[0.904926] (-) TimerEvent: {}
+[1.005521] (-) TimerEvent: {}
+[1.106779] (-) TimerEvent: {}
+[1.208042] (-) TimerEvent: {}
+[1.309005] (-) TimerEvent: {}
+[1.409891] (-) TimerEvent: {}
+[1.510928] (-) TimerEvent: {}
+[1.611718] (-) TimerEvent: {}
+[1.712683] (-) TimerEvent: {}
+[1.813601] (-) TimerEvent: {}
+[1.916029] (-) TimerEvent: {}
+[2.017731] (-) TimerEvent: {}
+[2.118681] (-) TimerEvent: {}
+[2.219403] (-) TimerEvent: {}
+[2.320293] (-) TimerEvent: {}
+[2.421380] (-) TimerEvent: {}
+[2.522102] (-) TimerEvent: {}
+[2.622956] (-) TimerEvent: {}
+[2.723647] (-) TimerEvent: {}
+[2.824490] (-) TimerEvent: {}
+[2.926387] (-) TimerEvent: {}
+[3.027152] (-) TimerEvent: {}
+[3.034643] (odom_republisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/astra/iroc_final_ws/odom_repub/build/odom_republisher/build', '--no-deps', 'symlink_data'], 'cwd': '/home/astra/iroc_final_ws/odom_repub/build/odom_republisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'astra', 'XDG_SESSION_TYPE': 'x11', 'Pangolin_DIR': '/home/astra/Pangolin/build/PangolinConfig.cmake', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/astra/iroc_final_ws/zed/install/zed_components/lib:/home/astra/astra_ws/install/astra_msgs/lib:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64${LD_LIBRARY_PATH:+:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib}', 'HOME': '/home/astra', 'OLDPWD': '/home/astra', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'MANAGERPID': '4147', 'SYSTEMD_EXEC_PID': '4490', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8051', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/astra/iroc_final_ws/odom_repub/install:/home/astra/astra_ws/install:/home/astra/ros2_ws/install:/home/astra/iroc_final_ws/zed/install:/home/astra/iroc_final_ws/map_saver/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'astra', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421424256687', 'JOURNAL_STREAM': '8:59374', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'astra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/astra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/astra-desktop:@/tmp/.ICE-unix/4301,unix/astra-desktop:/tmp/.ICE-unix/4301', 'INVOCATION_ID': '498c9e9f8ab940f395051018634d67e3', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/astra/iroc_final_ws/odom_repub/install/vision_to_mavros:/home/astra/iroc_final_ws/odom_repub/install/odom_republisher:/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/manual_key_control:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_nav_control:/home/astra/astra_ws/install/astra_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dc70e3e9-3d61-4309-a9e9-10ea3340d6bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/astra/iroc_final_ws/odom_repub/build/odom_republisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/astra/iroc_final_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:/home/astra/iroc_final_ws/odom_repub/build/odom_republisher:/home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:/home/astra/astra_ws/install/manual_key_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_nav_control/lib/python3.10/site-packages:/home/astra/astra_ws/install/astra_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/astra/iroc_final_ws/odom_repub/install/vision_to_mavros:/home/astra/iroc_final_ws/zed/install/zed_ros2:/home/astra/iroc_final_ws/zed/install/zed_wrapper:/home/astra/iroc_final_ws/zed/install/zed_components:/home/astra/iroc_final_ws/map_saver/install/zed_pcd_saver:/home/astra/ros2_ws/install/image_pub:/home/astra/astra_ws/install/astra_urdf:/home/astra/astra_ws/install/astra_msgs', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[3.127314] (-) TimerEvent: {}
+[3.228025] (-) TimerEvent: {}
+[3.328821] (-) TimerEvent: {}
+[3.429555] (-) TimerEvent: {}
+[3.531056] (-) TimerEvent: {}
+[3.631999] (-) TimerEvent: {}
+[3.732986] (-) TimerEvent: {}
+[3.821382] (odom_republisher) StdoutLine: {'line': b'running develop\n'}
+[3.833183] (-) TimerEvent: {}
+[3.933919] (-) TimerEvent: {}
+[4.034678] (-) TimerEvent: {}
+[4.135533] (-) TimerEvent: {}
+[4.236345] (-) TimerEvent: {}
+[4.337437] (-) TimerEvent: {}
+[4.376118] (odom_republisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.376743] (odom_republisher) StdoutLine: {'line': b'writing odom_republisher.egg-info/PKG-INFO\n'}
+[4.377348] (odom_republisher) StdoutLine: {'line': b'writing dependency_links to odom_republisher.egg-info/dependency_links.txt\n'}
+[4.377767] (odom_republisher) StdoutLine: {'line': b'writing entry points to odom_republisher.egg-info/entry_points.txt\n'}
+[4.378149] (odom_republisher) StdoutLine: {'line': b'writing requirements to odom_republisher.egg-info/requires.txt\n'}
+[4.378443] (odom_republisher) StdoutLine: {'line': b'writing top-level names to odom_republisher.egg-info/top_level.txt\n'}
+[4.437596] (-) TimerEvent: {}
+[4.446755] (odom_republisher) StdoutLine: {'line': b"reading manifest file 'odom_republisher.egg-info/SOURCES.txt'\n"}
+[4.450250] (odom_republisher) StdoutLine: {'line': b"writing manifest file 'odom_republisher.egg-info/SOURCES.txt'\n"}
+[4.537852] (-) TimerEvent: {}
+[4.552281] (odom_republisher) StdoutLine: {'line': b'running build_ext\n'}
+[4.553107] (odom_republisher) StdoutLine: {'line': b'Creating /home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom-republisher.egg-link (link to .)\n'}
+[4.556541] (odom_republisher) StdoutLine: {'line': b'Installing odom_republisher_node script to /home/astra/iroc_final_ws/odom_repub/install/odom_republisher/lib/odom_republisher\n'}
+[4.557468] (odom_republisher) StdoutLine: {'line': b'\n'}
+[4.558016] (odom_republisher) StdoutLine: {'line': b'Installed /home/astra/iroc_final_ws/odom_repub/build/odom_republisher\n'}
+[4.560070] (odom_republisher) StdoutLine: {'line': b'running symlink_data\n'}
+[4.638033] (-) TimerEvent: {}
+[4.725939] (odom_republisher) CommandEnded: {'returncode': 0}
+[4.738149] (-) TimerEvent: {}
+[4.775441] (odom_republisher) JobEnded: {'identifier': 'odom_republisher', 'rc': 0}
+[4.777904] (-) EventReactorShutdown: {}

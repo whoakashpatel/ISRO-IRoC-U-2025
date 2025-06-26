@@ -1,0 +1,24 @@
+[1.911s] Invoking command in '/home/astra/IRoC_ws/odom_repub/build/odom_republisher': PYTHONPATH=/home/astra/IRoC_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build --no-deps symlink_data
+[2.570s] running develop
+[3.057s] running egg_info
+[3.057s] creating odom_republisher.egg-info
+[3.057s] writing odom_republisher.egg-info/PKG-INFO
+[3.057s] writing dependency_links to odom_republisher.egg-info/dependency_links.txt
+[3.058s] writing entry points to odom_republisher.egg-info/entry_points.txt
+[3.058s] writing requirements to odom_republisher.egg-info/requires.txt
+[3.058s] writing top-level names to odom_republisher.egg-info/top_level.txt
+[3.059s] writing manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[3.116s] reading manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[3.117s] writing manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[3.203s] running build_ext
+[3.203s] Creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom-republisher.egg-link (link to .)
+[3.205s] Installing odom_republisher_node script to /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/odom_republisher
+[3.206s] 
+[3.206s] Installed /home/astra/IRoC_ws/odom_repub/build/odom_republisher
+[3.206s] running symlink_data
+[3.206s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index
+[3.206s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index
+[3.206s] creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages
+[3.207s] symbolically linking /home/astra/IRoC_ws/odom_repub/build/odom_republisher/resource/odom_republisher -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/ament_index/resource_index/packages
+[3.207s] symbolically linking /home/astra/IRoC_ws/odom_repub/build/odom_republisher/package.xml -> /home/astra/IRoC_ws/odom_repub/install/odom_republisher/share/odom_republisher
+[3.322s] Invoked command in '/home/astra/IRoC_ws/odom_repub/build/odom_republisher' returned '0': PYTHONPATH=/home/astra/IRoC_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros/vision_to_mavros_node" "TARGETS" "vision_to_mavros_node" "DESTINATION" "lib/vision_to_mavros")

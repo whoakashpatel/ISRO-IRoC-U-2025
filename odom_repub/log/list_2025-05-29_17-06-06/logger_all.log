@@ -1,0 +1,56 @@
+[0.480s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/astra/iroc_final_ws/vision_to_mav']
+[0.481s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/astra/iroc_final_ws/vision_to_mav'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff81be3640>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff81be2620>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff81be2620>>)
+[1.150s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[1.151s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[1.151s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[1.151s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[1.151s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[1.152s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/astra/iroc_final_ws/vision_to_mav'
+[1.152s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'ignore'
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'ignore_ament_install'
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extensions ['colcon_pkg']
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'colcon_pkg'
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extensions ['colcon_meta']
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'colcon_meta'
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extensions ['ros']
+[1.153s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'ros'
+[1.184s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extensions ['cmake', 'python']
+[1.185s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'cmake'
+[1.185s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'python'
+[1.185s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extensions ['python_setup_py']
+[1.185s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav) by extension 'python_setup_py'
+[1.185s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/build) by extensions ['ignore', 'ignore_ament_install']
+[1.186s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/build) by extension 'ignore'
+[1.186s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/build) ignored
+[1.186s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/install) by extensions ['ignore', 'ignore_ament_install']
+[1.187s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/install) by extension 'ignore'
+[1.187s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/install) ignored
+[1.187s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/log) by extensions ['ignore', 'ignore_ament_install']
+[1.187s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/log) by extension 'ignore'
+[1.188s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/log) ignored
+[1.188s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extensions ['ignore', 'ignore_ament_install']
+[1.188s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'ignore'
+[1.188s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'ignore_ament_install'
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extensions ['colcon_pkg']
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'colcon_pkg'
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extensions ['colcon_meta']
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'colcon_meta'
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extensions ['ros']
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'ros'
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extensions ['cmake', 'python']
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'cmake'
+[1.189s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'python'
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extensions ['python_setup_py']
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src) by extension 'python_setup_py'
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extensions ['ignore', 'ignore_ament_install']
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extension 'ignore'
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extension 'ignore_ament_install'
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extensions ['colcon_pkg']
+[1.190s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extension 'colcon_pkg'
+[1.191s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extensions ['colcon_meta']
+[1.191s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extension 'colcon_meta'
+[1.191s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extensions ['ros']
+[1.191s] colcon.colcon_core.package_identification Level 1 _identify(/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav) by extension 'ros'
+[1.199s] colcon.colcon_core.package_identification DEBUG Package '/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mav' with type 'ros.ament_python' and name 'vision_to_mav'
+[1.200s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults

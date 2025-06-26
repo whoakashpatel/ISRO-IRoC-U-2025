@@ -1,0 +1,5 @@
+[console_scripts]
+odom_republisher_node = odom_republisher.odom_republisher_node:main
+qgc_logger = odom_republisher.qgc_logger:main
+set_origin = odom_republisher.set_origin:main
+

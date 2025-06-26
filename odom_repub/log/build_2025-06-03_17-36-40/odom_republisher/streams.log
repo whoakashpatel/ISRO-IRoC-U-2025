@@ -1,0 +1,17 @@
+[1.885s] Invoking command in '/home/astra/IRoC_ws/odom_repub/build/odom_republisher': PYTHONPATH=/home/astra/IRoC_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build --no-deps symlink_data
+[2.540s] running develop
+[3.040s] running egg_info
+[3.041s] writing odom_republisher.egg-info/PKG-INFO
+[3.041s] writing dependency_links to odom_republisher.egg-info/dependency_links.txt
+[3.042s] writing entry points to odom_republisher.egg-info/entry_points.txt
+[3.042s] writing requirements to odom_republisher.egg-info/requires.txt
+[3.042s] writing top-level names to odom_republisher.egg-info/top_level.txt
+[3.101s] reading manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[3.103s] writing manifest file 'odom_republisher.egg-info/SOURCES.txt'
+[3.189s] running build_ext
+[3.189s] Creating /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages/odom-republisher.egg-link (link to .)
+[3.191s] Installing odom_republisher_node script to /home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/odom_republisher
+[3.191s] 
+[3.192s] Installed /home/astra/IRoC_ws/odom_repub/build/odom_republisher
+[3.192s] running symlink_data
+[3.307s] Invoked command in '/home/astra/IRoC_ws/odom_repub/build/odom_republisher' returned '0': PYTHONPATH=/home/astra/IRoC_ws/odom_repub/build/odom_republisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/IRoC_ws/odom_repub/build/odom_republisher/build --no-deps symlink_data

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a0fb5c016c3b379f76e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vision_to_mavros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a84bf88ffdb9f5c5f9aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_to_mavros_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_to_mavros_node-51d9b5bb6bf8e8631f2f.json",
+					"name" : "vision_to_mavros_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vision_to_mavros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vision_to_mavros_uninstall-dab5c1facdf382f25c51.json",
+					"name" : "vision_to_mavros_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/astra/iroc_final_ws/vision_to_mav/build/vision_to_mavros",
+		"source" : "/home/astra/iroc_final_ws/vision_to_mav/src/vision_to_mavros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
