@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav",
+        "/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages",
+        "/home/astra/IRoC_ws/odom_repub/build/odom_republisher",
+        "/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages",
+        "/home/astra/astra_ws/install/manual_key_control/lib/python3.10/site-packages",
+        "/home/astra/astra_ws/install/astra_nav_control/lib/python3.10/site-packages",
+        "/home/astra/astra_ws/install/astra_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav",
+        "/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages",
+        "/home/astra/IRoC_ws/odom_repub/build/odom_republisher",
+        "/home/astra/IRoC_ws/odom_repub/install/odom_republisher/lib/python3.10/site-packages",
+        "/home/astra/astra_ws/install/manual_key_control/lib/python3.10/site-packages",
+        "/home/astra/astra_ws/install/astra_nav_control/lib/python3.10/site-packages",
+        "/home/astra/astra_ws/install/astra_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

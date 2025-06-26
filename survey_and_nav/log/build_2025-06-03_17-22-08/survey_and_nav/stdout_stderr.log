@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/survey_and_nav/survey_and_nav.egg-info
+writing ../../build/survey_and_nav/survey_and_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/survey_and_nav/survey_and_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/survey_and_nav/survey_and_nav.egg-info/entry_points.txt
+writing requirements to ../../build/survey_and_nav/survey_and_nav.egg-info/requires.txt
+writing top-level names to ../../build/survey_and_nav/survey_and_nav.egg-info/top_level.txt
+writing manifest file '../../build/survey_and_nav/survey_and_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/survey_and_nav/survey_and_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/survey_and_nav/survey_and_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build
+creating /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib
+creating /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/__init__.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/survey.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/saved.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/bruteref3.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/bruteref2.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/bruteref.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+copying survey_and_nav/testing.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+running install
+running install_lib
+creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/__init__.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/survey.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/saved.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/bruteref3.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/bruteref2.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/bruteref.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/testing.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/survey.py to survey.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/saved.py to saved.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/bruteref3.py to bruteref3.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/bruteref2.py to bruteref2.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/bruteref.py to bruteref.cpython-310.pyc
+byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/testing.py to testing.cpython-310.pyc
+running install_data
+creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index
+creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index
+creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index/packages
+copying resource/survey_and_nav -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/survey_and_nav
+running install_egg_info
+Copying ../../build/survey_and_nav/survey_and_nav.egg-info to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing survey_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+Installing testing_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+writing list of installed files to '/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/install.log'

@@ -1,0 +1,53 @@
+[1.832s] Invoking command in '/home/astra/IRoC_ws/survey_and_nav/src/survey_and_nav': PYTHONPATH=/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/survey_and_nav build --build-base /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build install --record /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/install.log --single-version-externally-managed install_data
+[2.438s] running egg_info
+[2.439s] creating ../../build/survey_and_nav/survey_and_nav.egg-info
+[2.439s] writing ../../build/survey_and_nav/survey_and_nav.egg-info/PKG-INFO
+[2.440s] writing dependency_links to ../../build/survey_and_nav/survey_and_nav.egg-info/dependency_links.txt
+[2.440s] writing entry points to ../../build/survey_and_nav/survey_and_nav.egg-info/entry_points.txt
+[2.441s] writing requirements to ../../build/survey_and_nav/survey_and_nav.egg-info/requires.txt
+[2.441s] writing top-level names to ../../build/survey_and_nav/survey_and_nav.egg-info/top_level.txt
+[2.441s] writing manifest file '../../build/survey_and_nav/survey_and_nav.egg-info/SOURCES.txt'
+[2.504s] reading manifest file '../../build/survey_and_nav/survey_and_nav.egg-info/SOURCES.txt'
+[2.505s] writing manifest file '../../build/survey_and_nav/survey_and_nav.egg-info/SOURCES.txt'
+[2.506s] running build
+[2.506s] running build_py
+[2.506s] creating /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build
+[2.506s] creating /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib
+[2.507s] creating /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.507s] copying survey_and_nav/__init__.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.507s] copying survey_and_nav/survey.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.507s] copying survey_and_nav/saved.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.508s] copying survey_and_nav/bruteref3.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.508s] copying survey_and_nav/bruteref2.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.508s] copying survey_and_nav/bruteref.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.508s] copying survey_and_nav/testing.py -> /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav
+[2.509s] running install
+[2.510s] running install_lib
+[2.511s] creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.511s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/__init__.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.511s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/survey.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.512s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/saved.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.512s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/bruteref3.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.512s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/bruteref2.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.513s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/bruteref.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.513s] copying /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build/lib/survey_and_nav/testing.py -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav
+[2.514s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/__init__.py to __init__.cpython-310.pyc
+[2.514s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/survey.py to survey.cpython-310.pyc
+[2.519s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/saved.py to saved.cpython-310.pyc
+[2.523s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/bruteref3.py to bruteref3.cpython-310.pyc
+[2.529s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/bruteref2.py to bruteref2.cpython-310.pyc
+[2.534s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/bruteref.py to bruteref.cpython-310.pyc
+[2.537s] byte-compiling /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav/testing.py to testing.cpython-310.pyc
+[2.538s] running install_data
+[2.538s] creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index
+[2.538s] creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index
+[2.539s] creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index/packages
+[2.539s] copying resource/survey_and_nav -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index/packages
+[2.539s] copying package.xml -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/survey_and_nav
+[2.539s] running install_egg_info
+[2.543s] Copying ../../build/survey_and_nav/survey_and_nav.egg-info to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey_and_nav-0.0.0-py3.10.egg-info
+[2.545s] running install_scripts
+[2.582s] Installing survey_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+[2.583s] Installing testing_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+[2.584s] writing list of installed files to '/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/install.log'
+[2.658s] Invoked command in '/home/astra/IRoC_ws/survey_and_nav/src/survey_and_nav' returned '0': PYTHONPATH=/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/survey_and_nav build --build-base /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build install --record /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[1.896s] Invoking command in '/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav': PYTHONPATH=/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build --no-deps symlink_data --force
+[2.551s] running develop
+[3.044s] running egg_info
+[3.045s] writing survey_and_nav.egg-info/PKG-INFO
+[3.045s] writing dependency_links to survey_and_nav.egg-info/dependency_links.txt
+[3.045s] writing entry points to survey_and_nav.egg-info/entry_points.txt
+[3.046s] writing requirements to survey_and_nav.egg-info/requires.txt
+[3.046s] writing top-level names to survey_and_nav.egg-info/top_level.txt
+[3.105s] reading manifest file 'survey_and_nav.egg-info/SOURCES.txt'
+[3.106s] writing manifest file 'survey_and_nav.egg-info/SOURCES.txt'
+[3.193s] running build_ext
+[3.193s] Creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey-and-nav.egg-link (link to .)
+[3.195s] Installing survey_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+[3.195s] Installing testing_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+[3.196s] 
+[3.196s] Installed /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav
+[3.196s] running symlink_data
+[3.196s] symbolically linking /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/resource/survey_and_nav -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index/packages
+[3.197s] symbolically linking /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/package.xml -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/survey_and_nav
+[3.309s] Invoked command in '/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav' returned '0': PYTHONPATH=/home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/build --no-deps symlink_data --force

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing survey_and_nav.egg-info/PKG-INFO
+writing dependency_links to survey_and_nav.egg-info/dependency_links.txt
+writing entry points to survey_and_nav.egg-info/entry_points.txt
+writing requirements to survey_and_nav.egg-info/requires.txt
+writing top-level names to survey_and_nav.egg-info/top_level.txt
+reading manifest file 'survey_and_nav.egg-info/SOURCES.txt'
+writing manifest file 'survey_and_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/python3.10/site-packages/survey-and-nav.egg-link (link to .)
+Installing survey_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+Installing testing_node script to /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/lib/survey_and_nav
+
+Installed /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav
+running symlink_data
+symbolically linking /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/resource/survey_and_nav -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/ament_index/resource_index/packages
+symbolically linking /home/astra/IRoC_ws/survey_and_nav/build/survey_and_nav/package.xml -> /home/astra/IRoC_ws/survey_and_nav/install/survey_and_nav/share/survey_and_nav

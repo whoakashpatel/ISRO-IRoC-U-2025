@@ -1,0 +1,4 @@
+[console_scripts]
+survey_node = survey_and_nav.survey:main
+testing_node = survey_and_nav.testing:main
+

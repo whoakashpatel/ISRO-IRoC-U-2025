@@ -1,0 +1,9 @@
+source;share/survey_and_nav/hook/pythonpath.ps1
+source;share/survey_and_nav/hook/pythonpath.dsv
+source;share/survey_and_nav/hook/pythonpath.sh
+source;share/survey_and_nav/hook/ament_prefix_path.ps1
+source;share/survey_and_nav/hook/ament_prefix_path.dsv
+source;share/survey_and_nav/hook/ament_prefix_path.sh
+source;../../build/survey_and_nav/share/survey_and_nav/hook/pythonpath_develop.ps1
+source;../../build/survey_and_nav/share/survey_and_nav/hook/pythonpath_develop.dsv
+source;../../build/survey_and_nav/share/survey_and_nav/hook/pythonpath_develop.sh
